@@ -1,12 +1,14 @@
-function Person(firstName, lastName){
+function Person(firstName, lastName,idCard){
     this.FirstName = firstName || "unknown";
     this.LastName = lastName || "unknown";
+
+    this.IdCard = idCard;
 }
 
 Person.prototype.getFullName = function () {
     return this.FirstName + " " + this.LastName;
 }
 
-var psn =  new Person("Juan","Perez");
+var psn =  new Person("Juan","Perez",1111);
 
 console.log(psn.getFullName());
