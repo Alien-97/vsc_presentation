@@ -1,0 +1,19 @@
+{
+  "name": "vsc_presentation",
+  "version": "1.0.0",
+  "description": "mocha and chai testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alien-97/vsc_presentation.git"
+  },
+  "author": "Alien Embarec Riadi, Felipe Andrés Álvarez Avaria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alien-97/vsc_presentation/issues"
+  },
+  "homepage": "https://github.com/Alien-97/vsc_presentation#readme"
+}

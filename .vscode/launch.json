@@ -12,7 +12,11 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
+<<<<<<< HEAD
             "program": "${workspaceFolder/src}"
+=======
+            "program": "${workspaceFolder}/src/intellisense-example.js"
+>>>>>>> working on extensions examples
         }
     ]
 }
