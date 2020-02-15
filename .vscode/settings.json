@@ -1,11 +1,10 @@
 {
-<<<<<<< HEAD
+
     "python.linting.pylintEnabled": false,
     "python.linting.banditEnabled": true,
     "python.linting.enabled": true,
     "python.pythonPath": "/usr/bin/python3"
-=======
     "python.pythonPath": "/usr/bin/python3",
     "mocha.files.glob": "./vsc_presentation/src/extensions-use-examples/mocha-testing/test/**/*.js"
->>>>>>> working on extensions examples
+
 }

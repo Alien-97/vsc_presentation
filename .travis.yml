@@ -1,6 +1,20 @@
 sudo: false
 
 language: node_js
+
+npm:
+  - node
+install:
+  - npm ci
+
+script:
+  - npm test
+
+notification:
+  email: false
+sudo: false
+
+language: node_js
 npm:
   - node
 install:

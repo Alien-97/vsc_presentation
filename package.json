@@ -4,7 +4,8 @@
   "description": "mocha and chai testing",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "start": "node ./src/multiSelector.js"
   },
   "repository": {
     "type": "git",
