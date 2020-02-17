@@ -316,27 +316,127 @@ Rename selected variable and all similar occurrences.
 ## 6. JS Linting in VSC
 
 ### a) Definition
+
+Linting is an analysis process against source code to flag programming errors, bugs, stylistic errors, and suspicious constructs. The term originates from a Unix utility that examined C language source code.
+
 ### b) Why using a Linter?
+
+JavaScript, being a dynamic and loosely-typed language, is especially prone to developer error. Without the benefit of a compilation process, JavaScript code is typically executed in order to find syntax or other errors. Linting tools allow developers to discover problems with their JavaScript code without executing it.
+
 ### c) Linting in VSC
+
+There is no built-in linter in Visual Studio Code, however we can install a linter via extensions. This way we can have all linting straight up from the editor.
+
+We will install ESLint for this purpose, as we are coding in JavaScript and it's the most popular for this language.
+
 ### d) ESLint
+
+ESLint is an open source JavaScript linting utility originally created by Nicholas C. Zakas in June 2013.
+The primary reason ESLint was created was to allow developers to create their own linting rules. ESLint is designed to have all rules completely pluggable. The default rules are written just like any plugin rules would be. They can all follow the same pattern, both for the rules themselves as well as tests. While ESLint will ship with some built-in rules to make it useful from the start, you'll be able to dynamically load rules at any point in time.
+
 ### e) Installing ESLint
+
+First, we need to install its VSCode extension
+
+Secondly we need to install its npm package in workspace.
+
+``$ npm install eslint``
+
+``$ npm install -g eslint``
+
+Finally we can configure ESLint
+
 ### f) Configure ESLint
+
+With some commands we need to configure ESLint for the first time. This will make a default config, but we can edit and add custom rules.
+
+``$ ./node_modules/.bin/eslint --init``
+
+``$ eslint --init``
+
 ### g) Using ESLint
+
+Using ESLint is easy, if we have all setup done, we can see underlined portions of code, meaning that the linter is flagging those as error or problems.
+
+``$ ./node_modules/.bin/eslint app.js``
+
+``$ eslint app.js``
 
 ## 7. JS Debugging in VSC
 
 ### a) Debugger
+
+Visual Studio Code does come with node.js debugger built-in. This means that we can run and debug node and npm programs out of the box.
+
+However we can install debuggers for most languages as extensions.
+
 ### b) Debug View
+
+Debug View is the main place for your debugging purposes. Here we can set breakpoints, watch variables and control call stack.
+
+We need to set up a config file (launch.json) so we can customize this debug process for multiple outcomes.
+
 ### c) Entering Debug Mode
+
+We can enter debug mode and start debugging our node program as usual with:
+
+``$ node --inspect-brk app.js``
+
+However we can also enter debug mode from Debug View (Big blue button), or pressing F5.
+
 ### d) Breakpoints
+
+Breakpoints works as usual in most IDEs, you can set them by clicking left side of line numbering.
+
+A breakpoint will trigger a stop in executing code.
+
+You can manage a breakpoint by right-clicking the red dot, so you can give more functionality, as conditional behaviour, log message or hit count to break.
+
+Conditional behaviour means that we can give an expression to a breakpoint, and it will only stop code if that expression evaluates to true.
+
+Log Message will log a message via standard output whenever it breaks.
+
+Hit count will not stop code unless its triggered the number of times its expression evaluates.
 
 ## 8. Remote editing in IaaS VM
 
 ### a) Introduction
+
+We can edit files that are in a remote virtual machine. This is great as we don't need to migrate code and environment from machine to machine to develop programs.
+
 ### b) Setup requirements
+
+We need 4 things:
+
+    SSH client in local computer
+    Visual Studio Code in local computer
+    SSH extension in Visual Studio Code
+    SSH server in remote machine
+
 ### c) Setup
+
+For setup we need to install all requirements and then going in the IDE to the new tab (ssh connections).
+
+In ssh target we need to configure a new connection. Hover over section and some buttons will appear to edit ssh_config.
+
+Most important configuration is user, port and ip.
+
 ### d) Key pair based authentication
+
+We can also configure this ssh conection to use a key pair for authentication.
+This means we don't need to input our password anymore.
+
+Steps:
+
+    Generate private and public keys in local computer
+    Register public key in autorized_keys in VM.
+    Use appropriate config in ssh_config in local computer
+
+
 ### e) Login
+
+Once we have a ssh connection, we can log in with Command Palette or using IDE interface.
+
 ### f) Considerations
 
 ## 9. Source Control
