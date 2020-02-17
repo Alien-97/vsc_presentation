@@ -100,7 +100,7 @@ Visual Studio Code is a source code editor that can be used with a variety of pr
 
 VSC  provides default support for JS,CSS,HTML and TypeScript. Other languages support can be added via extensions.
 
-![img text](./img/6-1.jpeg) 
+![img text](./img/6-1.png) 
 
 
 ### d) VS Versions
@@ -141,6 +141,7 @@ Download the executable from the VSC page. Then you have to start the installati
 
 ## 3. Basic Use of VSC
 
+
 ### a) Main Interface
 
 
@@ -166,21 +167,138 @@ Workspace settings: apply only to one or more projects.
 
 ![img text](./img/mi-6.png) 
 
-### c) Color Theme
-
 For create a project go to File > Open Folder > Open existing folder o create a new one . 
 
 ![img text](./img/htcp-1.png)
 
+These step can also be done on  Welcome Page on Start  > Open folder.
+
+![img text](./img/18-1.png)
+
+Each project has a workspace, where the specific settings of project are configured. 
+
+
+![img text](./img/htcp-2.png)
+
+For save workspace, save your changes with Ctrl+S, then go to File > Save Workspace As and choose the location of these file. As it is associated to the project, it should be saved in the project folder.
+
+![img text](./img/21-1.png)
+
+You can see [here](https://www.youtube.com/watch?v=aMjEXa-yXnY&feature=youtu.be) a demo made by use about multiroot workspaces
+
+### c) Color Theme
+
+Go to Command Palette > Color Theme, also Ctrl + K Ctrl + T
+
+![img text](./img/24-2.png)
+
+![img text](./img/24-1.png)
+
 ### d) Panel
+
+![img text](./img/panel-1.png)
+
+
+Additional commands: scroll Up/Down (Shift + Fn + Up/Down)
+
+![img text](./img/panel-2.png)
+
 ### e) IntelliSense and Emmet
+
+Type Inference, JSDoc: variables and function names and more.
+
+![img text](./img/intellisense.gif)
+
+
+Emmet: 	Snippet expansion (1).
+
+![img text](./img/emmet-html-cutted-gif.gif)
+
+Emmet : Abbreviatons (2).
+
+![img text](./img/emmet-2-corregido-gif-este.gif)
+
 ### f) Multi-selector
+
+For example: rename multiple variables. Select first occurrence + ctrl  + d
+
+![img text](./img/30-1.png)
+
+Other ways: multiple selectors, select first occurrence and then left click + alt for add more occurrences.
+
+![img text](./img/31-1.png)
+
 ### g) How to run code on VS Code
+
+There are many options:
+
+In Debug/Run without Debugging
+
+![img text](./img/32-1.png)
+
+
+In Terminal > Run active file
+
+![img text](./img/33-1.png)
+
+As we will be using Node.js, another way of run code is define a Task going to package.json
+
+In scripts hash, write a new task providing a key name and what should be done when the task is applied. For example: "start": "node ./src/multiSelector.js"
+
+![img text](./img/part2/1-1.png)
+
+Now, go to the file you want to execute and in status bar, click on Terminal > Run Task
+
+![img text](./img/part2/2-1.png)
+
+For HTML files, you can use  Open in browser extension
+
+![img text](./img/part2/4-1.png)
+
+
 ### h) Editor Layout
+
+Tools bar, View/Editor Layout
+
+![img text](./img/part2/5-1.png)
+
+Toggle editor layout, horizontal/vertical Shift + Alt + 0
+
+![img text](./img/part2/6-1.gif)
+
+
+
 ### i) Code formatting
+
+Format Document, 
+Ctrl + Shift + I
+
+Format selection,
+Ctrl + K Ctrl + F
+
+![img text](./img/part2/7-1.gif)
+
+
+
 ### j) Code refactoring 
 #### Rename Symbol
+
+Rename selected variable and all similar occurrences.
+
+![img text](./img/part2/8-2.gif)
+
+![img text](./img/part2/8-1.gif)
+
+![img text](./img/part2/8-3.gif)
+
 #### Extract Variable
+
+![img text](./img/part2/9-1.gif)
+
+![img text](./img/part2/9-2.gif)
+
+![img text](./img/part2/9-3.gif)
+
 #### Extract Method
 #### Peek Definition
 
