@@ -92,7 +92,7 @@ An Integrated Development Environment(IDE), is a software application that provi
 
 On November 18, 2015, Visual Studio Code was released under the MIT License and its [source code](https://github.com/microsoft/vscode) posted to GitHub.
 
-[img text](./img/5-1.png)
+![img text](./img/5-1.png)
 
 ### c) VSC Language Support
 
@@ -100,7 +100,7 @@ Visual Studio Code is a source code editor that can be used with a variety of pr
 
 VSC  provides default support for JS,CSS,HTML and TypeScript. Other languages support can be added via extensions.
 
-[img text](./img/6-1.jpeg) 
+![img text](./img/6-1.jpeg) 
 
 
 ### d) VS Versions
@@ -109,11 +109,11 @@ There are several versions of microsoft visual studio availables. We're going to
 
 Although later we'll see that you can add features to the IDE with the extensions.
 
-[img text](./img/8-1.jpeg) 
+![img text](./img/8-1.jpeg) 
 
 ## 2. Installation of VSC in Linux and Windows OS
 
-[img text](./img/9-1.jpeg) 
+![img text](./img/9-1.jpeg) 
 
 Visual Studio Code is available for three main Operating Systems: Linux, Windows and macOS.
 Two versions: stable releases and for Beta-testers(Insiders).
@@ -137,7 +137,7 @@ See this VSC official guide for [installation in Linux](https://code.visualstudi
 Download the executable from the VSC page. Then you have to start the installation wizard for Windows.
 
 
-[img text](./img/9-1.png) 
+![img text](./img/9-1.png) 
 
 ## 3. Basic Use of VSC
 
@@ -146,17 +146,17 @@ Download the executable from the VSC page. Then you have to start the installati
 
 Welcome Window when code-editor  is opened for first time.
 
-[img text](./img/mi_1.png)
+![img text](./img/mi_1.png)
 
-[img text](./img/mi_2.png) 
+![img text](./img/mi_2.png) 
 
 Command Palette
 
-[img text](./img/mi_3.png)
+![img text](./img/mi_3.png)
 
-[img text](./img/mi_4.png) 
+![img text](./img/mi_4.png) 
 
-[img text](./img/16-1.png) 
+![img text](./img/16-1.png) 
 
 ### b) How to create a project
 
@@ -164,13 +164,13 @@ User settings: apply to each vsc instance opened.
 
 Workspace settings: apply only to one or more projects.
 
-[img text](./img/mi-6.png) 
+![img text](./img/mi-6.png) 
 
 ### c) Color Theme
 
 For create a project go to File > Open Folder > Open existing folder o create a new one . 
 
-[img text](./img/htcp-1.png)
+![img text](./img/htcp-1.png)
 
 ### d) Panel
 ### e) IntelliSense and Emmet
